@@ -1,61 +1,73 @@
+<!-- 
+
+Things I've learnt in HTML with RP include
+1) Basic text + formatting
+2) Lists
+3) Images
+4) Forms
+5) Links
+6) Tables
+7) HTML Entities
+8) IFrames
+
+-->
 <!doctype HTML>
 <html>
   <head>
     <title>AIO HTML Page</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-    <style>
-        #span1, #span2
-        {
-            float: left;
-        }
-        #span2
-        {
-            float: right;
-        }
-    </style>
   </head>
   <body>
-    <div class="container-fluid">
-        <h1 align="center">MiG - 21 "Fishbed"</h1>
+    <div align="center">
+        <h1>MiG - 21 "Fishbed"</h1>
         <hr />
-        <p align="center"><strong>The Phantom Destroyer! Here's a page that uses all of the HTML concepts I know of, along with just the amount of  Bootstrap to keep it responsive, made in honour of my favourite jet fighter! I'll be making more of these project sites as I'll be mastering more technologies, one by one.</strong></p>
-        <p align="center">MiG stands for Mikoyan Gurevich, who were the two principle designers of this aircraft. It incorporates a unique delta wing configuration along with standard hrizontal stabilizers. It is a Mach 2 capable fighter aircraft that was designed by the MiG design bureau in Soviet Union. By its capabilities, it soon became the premier 2nd generation fighter aircraft and even now, after more than 50 years of it's induction in Soviet Air Force, it still serves in many countries, like the one I'm a native of, India.</p>
+        <p><strong>The Phantom Destroyer! Here's a page that uses all of the HTML concepts I know of made in honour of my favourite jet fighter! I'll be making more of these project sites as I'll be mastering more technologies, one by one.</strong></p>
+        <p>MiG stands for Mikoyan Gurevich, who were the two principle designers of this aircraft. It incorporates a unique delta wing configuration along with standard hrizontal stabilizers. It is a Mach 2 capable fighter aircraft that was designed by the MiG design bureau in Soviet Union. By its capabilities, it soon became the premier 2nd generation fighter aircraft and even now, after more than 50 years of it's induction in Soviet Air Force, it still serves in many countries, like the one I'm a native of, India.</p>
         <hr />
         <h2>Have a look at it!</h2>
         <img src="http://i2.wp.com/su-27flanker.com/wp-content/uploads/2015/03/rZ7RE.jpg" align="center" alt="MiG 21 Theme Image" width="100%"></img>
         <hr />
         <h2>A formal description</h2>
-        <span id="span1">
-            <p><strong>MiG - 21</strong></p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/MiG-21.svg" width="480" alt="MiG 21 Cutout Image" align="middle"></html>
-        </span>
-        <span id="span2">
-            <dl>
-                <dt><strong>Role</strong></dt>
-                <dd><a href="https://en.wikipedia.org/wiki/Fighter_aircraft">Fighter</a></dd>
-                <dt><strong>Manufacturer</strong></dt>
-                <dd>Mikoyan-Gurevich OKB</dd>
-                <dt><strong>Designer</strong></dt>
-                <dd>Artem Mikoyan</dd>
-                <dt><strong>First flight</strong></dt>
-                <dd>14 February 1956 (Ye-2)</dd>
-                <dt><strong>Introduction</strong></dt>
-                <dd>1959 (MiG-21F)</dd>
-                <dt><strong>Status</strong></dt>
-                <dd>In active service</dd>
-                <dt><strong>Primary users</strong></dt>
-                <dd>Soviet Air Force, Indian Air Force, Libyan Air Force</dd>
-                <dt><strong>Produced</strong></dt>
-                <dd>1959 (MiG-21F) to 1985 (MiG-21bis)</dd>
-                <dt><strong>Number built</strong></dt>
-                <dd>11,496 (10,645 produced in the USSR, 657 in India, 194 in Czechoslovakia)</dd>
-                <dt><strong>Variants</strong></dt>
-                <dd>Chengdu J-7</dd>
-            </dl>    
-        </span>
-        <!--<h2>Here's a video in its honour</h2>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/WedlI91iZG8" frameborder="0" allowfullscreen></iframe> -->
+        <p><strong>MiG - 21</strong></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/MiG-21.svg" width="70%" alt="MiG 21 Cutout Image"></img>
+        <ul>
+            <li><strong>Role: </strong><a href="https://en.wikipedia.org/wiki/Fighter_aircraft">Fighter</a></li>
+            <li><strong>Manufacturer: </strong><a href="https://en.wikipedia.org/wiki/Mikoyan">Mikoyan-Gurevich OKB</a></li>
+            <li><strong>Designer: </strong><a href="https://en.wikipedia.org/wiki/Artem_Mikoyan">Artem Mikoyan</a></li>
+            <li><strong>First flight: 14 February 1956 (Ye-2)</strong></li>
+            <li><strong>Introduction: </strong>1959 (MiG-21F)</li>
+            <li><strong>Status: </strong>In active service</li>
+            <li><strong>Primary users: </strong><a href="https://en.wikipedia.org/wiki/Soviet_Air_Force">Soviet Air Force</a>, <a href="https://en.wikipedia.org/wiki/Indian_Air_Force">Indian Air Force</a>, <a href="https://en.wikipedia.org/wiki/Libyan_Air_Force">Libyan Air Force</a></li>
+            <li><strong>Produced: </strong>1959 (MiG-21F) to 1985 (MiG-21bis)</li>
+            <li><strong>Number built: </strong>11,496 (10,645 produced in the USSR, 657 in <a href="https://en.wikipedia.org/wiki/India">India</a>, 194 in <a href="https://en.wikipedia.org/wiki/Czechoslovakia">Czechoslovakia</a>)</li>
+            <li><strong>Variants: </strong><a href="https://en.wikipedia.org/wiki/Chengdu_J-7">Chengdu J-7</a></li>
+        </ul>
+        <hr />
+        <h2>Specifications</h2>
+        <table>
+            <tr><th>Crew</th><th>Length</th><th>Wingspan</th><th>Height</th><th>Wing area</th><th>Empty weight</th><th>Gross weight</th><th>Powerplant</th><th>Maximum speed</th><th>Range</th><th>Service ceiling</th><th>Rate of climb</th></tr>
+            <tr><td>1 / 2</td><td>14.5 m</td><td>7.154 m</td><td>4 m</td><td>23 m sq.</td><td>5846 kg</td><td>8,825 kg</td><td>1 x <a href="https://en.wikipedia.org/wiki/Tumansky_R-25">Tumansky R25-300</a>, 40.21 kN thrust dry, 69.62 kN with afterburner</td><td>2,175 km/h (Mach 2.0)</td><td>1,210 km</td><td>17,800 km (58,400 ft)</td><td>225 m/s (44,280 ft/min)</td></tr>
+        </table>
+        <hr />
+        <h2>Here's a video in its honour</h2>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/WedlI91iZG8" frameborder="0" allowfullscreen></iframe>
+        <hr />
+        <h2>Want to know more? Contact us!</h2>
+        <form>
+            Name: <input type="text" placeholder="Type your name"></input><br /><br />
+            E-Mail address: <input type="email" placeholder="Type your email"></input><br /><br />
+            On a range from 0 to 5, how much did you like this article?<br /><br /><input type="range" min="0" max="5"></input><br /><br />
+            Select you message theme: <select><option>Data Inaccuracy</option><option>Historical Relevance</option><option>Any other</option></select><br /><br />
+            Age Group: <label><input type="radio" name="age"></input>1-20</label>
+                       <label><input type="radio" name="age"></input>21-35</label>
+                       <label><input type="radio" name="age"></input>36-50</label>
+                       <label><input type="radio" name="age"></input>51 and above</label><br /><br />
+            Type your message below:<br /> <textarea></textarea><br /><br /><br />
+            <input type="submit" value="Click to Submit"></input>
+        </form>
+        <hr />
+        <h2>About Us!</h2>
+        <p>Coded with love by <a href="https://in.linkedin.com/in/shubham-mehta-b15a54a0">Shubham Mehta!</a>. No formal copyright but just for the sake of using an HTML Entity, &copy;2015</p>
     </div>
   </body>
 </html>
